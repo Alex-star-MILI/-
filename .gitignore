@@ -1,0 +1,29 @@
+# ========== 健身房管理系统 - GitHub .gitignore ==========
+
+# ========== Node.js (前端) ==========
+gym-management/node_modules/
+gym-management/dist/
+gym-management/.env.local
+gym-management/.env.*.local
+
+# ========== Java (后端) ==========
+gym-server/target/
+gym-server/.mvn/
+gym-server/data/
+gym-server/*.h2.db
+
+# ========== IDE ==========
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# ========== 系统 ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== 本地部署包 ==========
+deploy/
+gym-deploy.zip
