@@ -1,0 +1,10 @@
+# Zeabur 部署配置 - 前端（Vue SPA）
+{
+  "build": {
+    "buildCommand": "npm install && npm run build",
+    "outputDirectory": "dist"
+  },
+  "deploy": {
+    "startCommand": "npx serve -s dist -l 3000"
+  }
+}

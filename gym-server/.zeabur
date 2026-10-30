@@ -1,0 +1,8 @@
+# Zeabur 部署配置 - 后端（Java SpringBoot）
+{
+  "deploy": {
+    "startCommand": "java -Xms256m -Xmx512m -jar gym-server-1.0.0.jar --spring.profiles.active=prod",
+    "healthcheckPath": "/api/dashboard/summary",
+    "healthcheckTimeout": 600
+  }
+}
